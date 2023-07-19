@@ -28,6 +28,7 @@
   flex-direction: row;
   width: auto;
   height: auto;
+  padding-top: 20px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
@@ -537,18 +538,32 @@
   align-self: stretch;
   background: #f4f4f4;
 }
+.a3 {
+  width: 25px;
+  height: 20px;
+}
+.a4 {
+  width: 25px;
+  height: 20px;
+}
+.a5 {
+  width: 25px;
+  height: 20px;
+}
+.a6 {
+  width: 25px;
+  height: 20px;
+}
 .box3-inner {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 52px;
+  margin-left: 13%;
 }
 .b3-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* width: 28%; */
+  /* display: block; */
 }
 .upper {
   display: flex;
@@ -586,6 +601,7 @@
   line-height: 28px; /* 175% */
   letter-spacing: 0.2px;
   width: 50%;
+  margin-left: 3%;
 }
 .FAQ {
   display: flex;
@@ -835,6 +851,10 @@
   flex-direction: column;
   align-items: center;
 }
+.al{
+  width: 20px;
+  height: 20px;
+}
 .hero-text h2 {
   display: flex;
   padding: 10px;
@@ -1022,8 +1042,33 @@
   }
 }
 @media screen and (max-width: 1130px) {
+  .al{
+    width: 30px;
+  }
+  .a3 {
+    width: 40px;
+    height: 20px;
+  }
+  .a4 {
+    width: 40px;
+    height: 20px;
+  }
+  .a5 {
+    width: 40px;
+    height: 20px;
+  }
+  .a6 {
+    width: 40px;
+    height: 20px;
+  }
   .toggle {
     display: inline-block;
+  }
+  .b3-items {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    /* margin-left: 15%; */
   }
   .order-btn {
     width: 80%;
@@ -1135,6 +1180,10 @@
     line-height: 18px; /* 150% */
     letter-spacing: 0.1px;
     margin-bottom: 30px;
+  }
+  .lower {
+    width: 80%;
+    margin-left: 4%;
   }
   .hero {
     display: flex;
