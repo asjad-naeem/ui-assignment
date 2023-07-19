@@ -1025,6 +1025,12 @@
   .toggle {
     display: inline-block;
   }
+  .order-btn {
+    width: 80%;
+  }
+  .order2-btn {
+    width: 80%;
+  }
   .box2 {
     display: flex;
     /* width: 100%; */
@@ -1161,7 +1167,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 359px) {
   .toggle {
     display: inline-block;
   }
@@ -1274,5 +1280,9 @@
     align-self: stretch;
     background: var(--dark-background, #252b42);
     margin-bottom: 50px;
+  }
+
+  .stars {
+    width: 50%;
   }
 }
